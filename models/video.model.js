@@ -20,7 +20,9 @@ const videoSchema = new mongoose.Schema(
       type: Number,
       required: true,
     },
-
+    niveau: {
+      type: String,
+    },
     comments: {
       type: [String],
     },
